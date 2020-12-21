@@ -16,12 +16,12 @@ I have written a simple Python script that calculates the Collatz sequence for s
 
 First, the raw results for n = {1, 2, 3, ..., 1000000}. The X axis denotes the value of n, while the Y axis denotes the length of the Collatz sequence beginning with f(n).
 
-![Total Collatz Results](collatz_results.png)
+![Total Collatz Results](figures/collatz_results.png)
 
 Now, some very simple analysis. I calculated a running average of the length of the Collatz sequence for the set {1, ..., k} for every k ∈ n. This tells us how the average length changes with respect to n. We can see from the figure that the average value clearly grows logarithmically.
 
-![Average Collatz Results](collatz_averages.png)
+![Average Collatz Results](figures/collatz_averages.png)
 
 Next, I calculated the running maximum length of the Collatz sequence. We can see that the maximum length only increases intermittently, though the rate of change does not appear to be strictly logarithmic.
 
-![Maximum Collatz Results](collatz_maxes.png)
+![Maximum Collatz Results](figures/collatz_maxes.png)
