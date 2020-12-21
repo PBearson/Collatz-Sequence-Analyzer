@@ -1,6 +1,6 @@
 # Collatz-Sequence-Analyzer
 
-[The Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) is a deceptively hard problem in mathematics. Let us define f(n) as follows: if n is even, then f(n) = n / 2; otherwise, f(n) = 3n + 1. What happens if we feed f(n) back into itself? Let us start with n = 5:
+[The Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) is a deceptively hard problem in mathematics. Let us define f(n) as follows: if n is even, then f(n) = n / 2; otherwise, f(n) = 3n + 1. What happens if we feed f(n) back into itself? Let us start with n = 5:
 * f(5) = 3(5) + 1 = 16
 * f(16) = 16 / 2 = 8
 * f(8) = 8 / 2 = 4
@@ -14,8 +14,14 @@ The Collatz Conjecture says that for any positive integer n, *the sequence gener
 
 I have written a simple Python script that calculates the Collatz sequence for some integer n and returns the length of that sequence. For example, the length of collatz(5) is 6. This script explores 3 values and how they change with respect to n: the total length of the Collatz sequence, the average length of the sequence, and the maximum length of the sequence. I tested this up to n = 1 million. My results are below. You are free to experiment with the script yourself.
 
+First, the raw results for n = {1, 2, 3, ..., 1000000}. The X axis denotes the value of n, while the Y axis denotes the length of the Collatz sequence beginning with f(n).
+
 ![Total Collatz Results](collatz_results.png)
 
+Now, some very simple analysis. I calculated a running average of the length of the Collatz sequence for the set {1, ..., k} for every k ∈ n. This tells us how the average length changes with respect to n. We can see from the figure that the average value clearly grows logarithmically.
+
 ![Average Collatz Results](collatz_averages.png)
+
+Next, I calculated the running maximum length of the Collatz sequence. We can see that the maximum length only increases intermittently, though the rate of change does not appear to be strictly logarithmic.
 
 ![Maximum Collatz Results](collatz_maxes.png)
