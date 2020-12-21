@@ -18,4 +18,4 @@ I have written a simple Python script that calculates the Collatz sequence for s
 
 ![Average Collatz Results](collatz_averages.png)
 
-![Maximum Collatz Results][collatz_maxes.png]
+![Maximum Collatz Results](collatz_maxes.png)
