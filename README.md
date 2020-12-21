@@ -32,4 +32,4 @@ You may have made the observation that the Collatz sequence is guaranteed to rea
 
 ![Average Collatz Results When Terminating at Powers of Two](figures/collatz_averages_modified_length.png)
 
-![Average Collatz Results When Terminating at Powers of Two](figures/collatz_averages_modified_length.png)
+![Maximum Collatz Results When Terminating at Powers of Two](figures/collatz_maxes_modified_length.png)
