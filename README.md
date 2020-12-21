@@ -28,8 +28,8 @@ Next, I calculated the running maximum length of the Collatz sequence. We can se
 
 You may have made the observation that the Collatz sequence is guaranteed to reach 1 as soon as collatz(n) produces a power of 2. Therefore, an alternative of way of calculating this sequence is to halt when we reach a power of 2. Does this give us any additional insight? The same analyses for this modified Collatz sequence is given below.
 
-![Total Collatz Results When Terminating at Powers of Two](figures/collatz_results.png)
+![Total Collatz Results When Terminating at Powers of Two](figures/collatz_results_modified_length.png)
 
-![Average Collatz Results When Terminating at Powers of Two](figures/collatz_averages.png)
+![Average Collatz Results When Terminating at Powers of Two](figures/collatz_averages_modified_length.png)
 
-![Average Collatz Results When Terminating at Powers of Two](figures/collatz_averages.png)
+![Average Collatz Results When Terminating at Powers of Two](figures/collatz_averages_modified_length.png)
